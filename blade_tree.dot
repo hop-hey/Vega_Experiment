@@ -1,0 +1,16 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="pCut position <= -838817.5\ngini = 0.5\nsamples = 8601\nvalue = [4332, 4269]", fillcolor="#fffdfc"] ;
+1 [label="pSvolFilm Lag error <= 0.114\ngini = 0.015\nsamples = 4364\nvalue = [4332, 32]", fillcolor="#e5823a"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="pCut position <= -841913.0\ngini = 0.449\nsamples = 94\nvalue = [62, 32]", fillcolor="#f2c29f"] ;
+1 -> 2 ;
+3 [label="gini = 0.0\nsamples = 62\nvalue = [62, 0]", fillcolor="#e58139"] ;
+2 -> 3 ;
+4 [label="gini = 0.0\nsamples = 32\nvalue = [0, 32]", fillcolor="#399de5"] ;
+2 -> 4 ;
+5 [label="gini = 0.0\nsamples = 4270\nvalue = [4270, 0]", fillcolor="#e58139"] ;
+1 -> 5 ;
+6 [label="gini = 0.0\nsamples = 4237\nvalue = [0, 4237]", fillcolor="#399de5"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
